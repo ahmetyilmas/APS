@@ -1,0 +1,29 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 17.02.2025 17:48:48
+// Design Name: 
+// Module Name: Xor
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module Xor(
+    input [7:0]a,
+    input [7:0]b,
+    output [7:0]r
+    );
+    assign r = a ^ b;
+endmodule
